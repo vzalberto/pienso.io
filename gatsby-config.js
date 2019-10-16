@@ -5,7 +5,8 @@ module.exports = {
     description: `A code learning site.`,
     siteUrl: `https://pienso.io`,
     social: {
-      mail: 'vzalberto@msn.com'
+      mail: 'vzalberto@msn.com',
+      twitter: 'paranoidhominid'
     }
   },
   plugins: [
