@@ -1,6 +1,9 @@
 ---
 title: How to build a small, yet tasty, minigame using React Hooks, Zdog and Tone.js
 date: Wed Oct 16 2019 15:41:59 GMT-0500
+
+featuredImage: ./fig-1.png
+
 ---
 
 
