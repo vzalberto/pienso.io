@@ -6,6 +6,8 @@ date: Wed Oct 16 2019 15:41:59 GMT-0500
 
 Una tarde libre (y ligeramente nublada) me puse a implementar el juego de las torres de Hanoi para explorar React Hooks y Zdog. Incluso fue un pretexto perfecto para intentar algo con Tone.js. Ya en el calor del proceso, el concepto de "torre" mutó en "trompo", y estando en el centro de México, el trompo tenía que ser al pastor.
 
+
+
 Esto es &nbsp; ```<TrompoDePastor />```:
 
 ```javascript
@@ -39,6 +41,6 @@ const TrompoDePastor = ( props ) => {
 }
 ```
 
-Link to game [https://hanoi-dog.firebaseapp.com](https://hanoi-dog.firebaseapp.com)
+Link al juego [https://hanoi-dog.firebaseapp.com](https://hanoi-dog.firebaseapp.com)
 
 ¿Nos ayudarías a [levantar un ticket](https://github.com/vzalberto/trompo/issues/new) si encuentras algún bug?
