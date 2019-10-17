@@ -5,6 +5,8 @@ import { rhythm, scale } from "../utils/typography"
 
 import { TrompoAlPastor } from './TrompoAlPastor'
 
+const TAU = Math.PI * 2
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -63,6 +65,10 @@ class Layout extends React.Component {
         }}
       >
         <header>{header}</header>
+        <TrompoAlPastor 
+        zoom={3}
+        rotation={{ x : TAU / 5 }}
+        discos={[{diameter:70,backface:"#f3de72"}, {diameter:60,backface:"#782d21"}, {diameter:50,backface:"#c1572f"}, {diameter:10,backface:"#e5af2a", color:"#71471f"}]}/>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, ¡Gracias, 
