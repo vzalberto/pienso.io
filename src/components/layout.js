@@ -67,6 +67,12 @@ class Layout extends React.Component {
       >
       <Helmet>
         <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet" />
+        <style>
+          p {
+            font-family: 'Inconsolata', monospace;
+          }
+
+        </style>
         </Helmet>
 
         <header>{header}</header>
