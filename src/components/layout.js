@@ -39,7 +39,7 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Inconsolata`,
+            fontFamily: `Inconsolata, monospace`,
             marginTop: 0,
           }}
         >
