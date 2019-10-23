@@ -65,16 +65,15 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-      <Helmet>
-        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet" />
+        <Helmet>
+          <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet" />
         </Helmet>
-
         <header>{header}</header>
        <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Hecho con , 
+          © {new Date().getFullYear()}, Hecho con 
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a>.
         </footer>
       </div>
     )
