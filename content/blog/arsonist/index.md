@@ -4,12 +4,12 @@ date: Tue Oct 22 2019 15:41:59 GMT-0500
 
 ---
 
-Una noche antes de una entrevista para la cual me preparé como nunca, hice [esto](https://github.com/vzalberto/arsonist).
+Una noche antes de una entrevista para la empresa X, hice [esto](https://github.com/vzalberto/arsonist) para mostrar mi nivel de estrés en tiempo real durante la entrevista.
 
-BCI => Node.js => Realtime Firebase => frontend 
+BCI (Brain Computer Interface) => Node.js => Realtime Firebase => Frontend 
 
-Un Emotiv Insight genera los datos.
+Un Emotiv Insight (BCI) genera los datos.
 
-Un middleware rutea los datos de la BCI hacia una base de datos en tiempo real.
+Un middleware escrito en Node.js rutea los datos de la BCI hacia una base de datos en tiempo real.
 
-Un frontend consume los datos.
+Un frontend consume los datos de la base.
