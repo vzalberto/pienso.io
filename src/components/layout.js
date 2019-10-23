@@ -39,7 +39,7 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Inconsolata, monospace`,
+            fontFamily: `'Exo', sans-serif`,
             marginTop: 0,
           }}
         >
@@ -67,12 +67,6 @@ class Layout extends React.Component {
       >
       <Helmet>
         <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet" />
-        <style>
-          p {
-            font-family: 'Inconsolata', monospace;
-          }
-
-        </style>
         </Helmet>
 
         <header>{header}</header>
