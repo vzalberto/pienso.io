@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+import { Helmet } from 'react-helmet';
 import { TrompoAlPastor } from './TrompoAlPastor'
 
 const TAU = Math.PI * 2
@@ -38,7 +39,7 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
+            fontFamily: `Inconsolata`,
             marginTop: 0,
           }}
         >
@@ -64,12 +65,12 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
+      <Helmet>
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet" />
+        </Helmet>
+
         <header>{header}</header>
-        <TrompoAlPastor 
-        zoom={3}
-        rotation={{ x : TAU / 5 }}
-        discos={[{diameter:70,backface:"#f3de72"}, {diameter:60,backface:"#782d21"}, {diameter:50,backface:"#c1572f"}, {diameter:10,backface:"#e5af2a", color:"#71471f"}]}/>
-        <main>{children}</main>
+       <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, ¡Gracias, 
           {` `}

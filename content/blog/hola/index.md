@@ -6,7 +6,7 @@ date: Wed Oct 16 2019 15:41:59 GMT-0500
 
 <b>Nota: Este es un tutorial en progreso</b>
 
-Una tarde libre (y ligeramente nublada) me puse a implementar el juego de las torres de Hanoi para explorar React Hooks y Zdog. Incluso fue un pretexto perfecto para intentar algo con Tone.js. Ya en el calor del proceso, el concepto de "torre" mutó en "trompo", y estando en el centro de México, el trompo tenía que ser al pastor.
+Una tarde libre decidí implementar una versión del juego de las torres de Hanoi para explorar React Hooks y Zdog. Incluso fue un pretexto perfecto para intentar algo con Tone.js. Ya en el calor del proceso, el concepto de "torre" mutó en "trompo", y estando en el centro de México, el trompo tenía que ser al pastor.
 
 <iframe src="https://codesandbox.io/embed/frosty-worker-13f0v?fontsize=14" title="frosty-worker-13f0v" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
