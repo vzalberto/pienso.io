@@ -9,6 +9,14 @@ Wordpress2016.overrideThemeStyles = () => {
   }
 }
 
+Wordpress2016.overrideThemeStyles = () => {
+  return {
+    "body": {
+      fontFamily: `Inconsolata`,
+    },
+  }
+}
+
 delete Wordpress2016.googleFonts
 
 const typography = new Typography(Wordpress2016)
