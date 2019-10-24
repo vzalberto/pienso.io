@@ -13,3 +13,4 @@ Un Emotiv Insight (BCI) genera los datos.
 Un [middleware](https://github.com/vzalberto/arsonist) escrito en Node.js rutea los datos de la BCI hacia una base de datos en tiempo real.
 
 Un frontend consume los datos de la base.
+
