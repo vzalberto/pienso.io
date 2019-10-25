@@ -91,6 +91,24 @@ pero antes necesito trabajar en el estilo de la aplicación
 Let's work on <RestaurantCard /> styling:
 
 
+<i>¿What is the difference between import with and without {}?</i>
+
+We need to go back to https://v2.grommet.io/box
+
+It took me longer than usual. Why?
+
+That's a topic for another post.
+
+For now, let's keep going.
+
+We have a barely aceptable layout design.
+
+We will focus on adding mobX so that we can have a global state
+
+With a global state, we can have a Map component.
+
+jajaja que?
+
 
 
 
