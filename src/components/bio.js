@@ -54,7 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        un blog de <strong>{author}</strong>.
+        un blog de <a target="_blank" href="https://github.com/vzalberto"><strong>{author}</strong></a>.
       </p>
     </div>
   )
