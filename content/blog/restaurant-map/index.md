@@ -107,7 +107,25 @@ We will focus on adding mobX so that we can have a global state
 
 With a global state, we can have a Map component.
 
+Mobx its cool and all, but we'll go with hooks. 
+
+Also, we need to get rid of react-rewired, because it produces babel conflicts with ReactMapGL
+
 jajaja que?
+
+npm install react-mapbox-gl mapbox-gl --save
+
+import 'mapbox-gl/dist/mapbox-gl.css'
+
+I spent a non-trivial amount of time debugging when my mistake was writing heigth instead of height, wow.
+
+I was also doing this
+
+const [state, dispatch] = useContext(Context);
+
+instead of this
+
+const {state, dispatch} = useContext(Context);
 
 
 
