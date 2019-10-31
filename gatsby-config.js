@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `en esto pienso.io`,
-    author: `Alberto Vera Zavala`,
+    author: `vzalberto`,
     description: `A code learning site.`,
     siteUrl: `https://pienso.io`,
     social: {
