@@ -18,16 +18,13 @@ const getMaxReturn = (arr) => {
 	let currentReturn = 0
 
 	for ( let i = 0 ; i < n ; i++ ) {
+
 		for ( let j = i + 1; j < n ; j++ ) {
+
 			currentReturn = arr[j] - arr[i]
 
-			const log = `i : ${arr[i]}, j : ${arr[j]}`
-			const values = `currentReturn: ${currentReturn}, maxReturn: ${maxReturn}`
-
-			console.log (log)
-			console.log (values)
-
 			if ( currentReturn > maxReturn ) {
+
 				maxReturn = currentReturn
 			}
 		}
@@ -42,6 +39,7 @@ Not fast enough...
 $$
 O(n)
 $$
+
 const getMaxReturn2 = (arr) => {
 
 	const n = arr.length
@@ -62,17 +60,8 @@ const getMaxReturn2 = (arr) => {
 			maxReturn = currentReturn
 		}
 
-		const log = `i : ${arr[i]}, i + 1 : ${arr[i + 1]}`
-		const values = `minimumStockPrice: ${minimumStockPrice}, currentReturn: ${currentReturn}, maxReturn: ${maxReturn}`
-
-		console.log (log)
-		console.log (values)
-
 	}
 
 	return maxReturn;
 
 }
-
-console.log(getMaxReturn([10, 30, -20, 5, 100]))
-console.log(getMaxReturn2([10, 30, -20, -50, 100, -25]))

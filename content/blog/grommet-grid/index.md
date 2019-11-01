@@ -18,7 +18,11 @@ Two rows, three columns.
 
 	import { Box, Grid, Grommet } from 'grommet'
 
-2.a I will add a &nbsp; ```<Clock/>```. Just because I can. There. Now, we continue. 
+2.a I will add a ```<Clock/>```. Just because I can. 
+
+<Clock /> 
+
+There. Now, we continue. 
 
 2.b Lets get rid of any CSS or position data.
 
