@@ -54,7 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        el último commit fue de <a target="_blank" href="https://github.com/vzalberto"><strong>{author}</strong></a>.
+      último commit por <a target="_blank" href="https://github.com/vzalberto"><strong>{author}</strong></a>.
       </p>
     </div>
   )
