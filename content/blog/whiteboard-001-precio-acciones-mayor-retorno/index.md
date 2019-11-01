@@ -2,7 +2,7 @@
 title: Whiteboard 001
 ---
 
-Se recibe un arreglo de precios diarios consecutivos de una acción [ 10, 20, -5, 20 ]
+Se tiene un arreglo de precios diarios para una acción: [ 10, 20, -5, 20 ]
 
 ¿Como calculamos el mayor retorno posible de inversión?
 
