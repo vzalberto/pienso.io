@@ -8,10 +8,13 @@ $$
 X = [ ~ 10, \ \ \ 20, \ \ \ -5, \ \ \ 20 ~ ]
 $$
 
-¿Cómo calculamos el mayor retorno posible de inversión?
+¿Querías una función para calcular el mayor retorno posible de inversión?
 
+$$
+f ( x )
+$$ 
 
-$$ f ( X ) = $$ ( X ) => {
+$$ f = $$ ( X ) => {
 
 	const n = X.length
 	
@@ -35,13 +38,15 @@ $$ f ( X ) = $$ ( X ) => {
 }
 
 &nbsp;&nbsp;&nbsp;
-🐠 $$ = O(n^2) $$
+🐠 $$ \sim O(n^2) $$
 
-Not fast enough...
+¿Buscabas una más rápida?
 
-What about $$ g ( X ) $$ ?
+ $$ 
+ g ( x ) 
+ $$ 
 
-$$ g ( X ) = $$ ( X ) => {
+$$ g = $$ ( X ) => {
 
 	
 	let maxReturn = 0
@@ -67,4 +72,6 @@ $$ g ( X ) = $$ ( X ) => {
 }
 
 &nbsp;&nbsp;&nbsp;
-🐬 $$ = O(n) $$
+🐬 $$ \sim O(n) $$
+
+Suerte.
