@@ -2,17 +2,18 @@
 title: Whiteboard 001
 ---
 
-Se tiene un arreglo de precios diarios para una acción: [ 10, 20, -5, 20 ]
-
-¿Como calculamos el mayor retorno posible de inversión?
+Se tiene un arreglo de precios diarios para una acción
 
 $$
-O(n^2)
+X = [ ~ 10, \ \ \ 20, \ \ \ -5, \ \ \ 20 ~ ]
 $$
 
-(arr) => {
+¿Cómo calculamos el mayor retorno posible de inversión?
 
-	const n = arr.length
+
+$$ f ( X ) = $$ ( X ) => {
+
+	const n = X.length
 	
 	let maxReturn = 0
 	let currentReturn = 0
@@ -21,7 +22,7 @@ $$
 
 		for ( let j = i + 1; j < n ; j++ ) {
 
-			currentReturn = arr[j] - arr[i]
+			currentReturn = X[j] - X[i]
 
 			if ( currentReturn > maxReturn ) {
 
@@ -33,15 +34,15 @@ $$
 	return maxReturn
 }
 
+&nbsp;&nbsp;&nbsp;
+🐠 $$ = O(n^2) $$
+
 Not fast enough...
 
-$$
-O(n)
-$$
+What about $$ g ( X ) $$ ?
 
-(arr) => {
+$$ g ( X ) = $$ ( X ) => {
 
-	const n = arr.length
 	
 	let maxReturn = 0
 
@@ -51,9 +52,9 @@ $$
 
 	for ( let i = 0 ; i < n - 1 ; i++ ) {
 
-		minimumStockPrice = arr[i] < minimumStockPrice ? arr[i] : minimumStockPrice
+		minimumStockPrice = X[i] < minimumStockPrice ? X[i] : minimumStockPrice
 
-		currentReturn = arr[ i + 1 ] - minimumStockPrice
+		currentReturn = X[ i + 1 ] - minimumStockPrice
 
 		if ( currentReturn > maxReturn ){
 			maxReturn = currentReturn
@@ -64,3 +65,6 @@ $$
 	return maxReturn
 
 }
+
+&nbsp;&nbsp;&nbsp;
+🐬 $$ = O(n) $$
