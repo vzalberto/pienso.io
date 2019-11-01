@@ -2,15 +2,13 @@
 title: Taco game layout with grommet grid
 ---
 
-Haremos un rediseño de <TacoApp/> o como se llame.
+Haremos un rediseño de &nbsp; [```<TacoApp/>```](https://pienso.io) o como se llame.
 
 We are going to use a Grommet Grid component
 
 Two rows, three columns.
 
 4 areas.
-
-
 
 1. Install Grommet
 
