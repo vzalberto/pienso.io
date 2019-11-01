@@ -1,5 +1,5 @@
 ---
-title: Ejercicio de whiteboard 001
+title: Whiteboard 001
 ---
 
 Se recibe un arreglo de precios diarios consecutivos de una acción [ 10, 20, -5, 20 ]
@@ -10,7 +10,7 @@ $$
 O(n^2)
 $$
 
-const getMaxReturn = (arr) => {
+(arr) => {
 
 	const n = arr.length
 	
@@ -30,8 +30,7 @@ const getMaxReturn = (arr) => {
 		}
 	}
 
-	return maxReturn;
-
+	return maxReturn
 }
 
 Not fast enough...
@@ -40,7 +39,7 @@ $$
 O(n)
 $$
 
-const getMaxReturn2 = (arr) => {
+(arr) => {
 
 	const n = arr.length
 	
@@ -62,6 +61,6 @@ const getMaxReturn2 = (arr) => {
 
 	}
 
-	return maxReturn;
+	return maxReturn
 
 }
