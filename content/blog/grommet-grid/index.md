@@ -18,7 +18,7 @@ Two rows, three columns.
 
 	import { Box, Grid, Grommet } from 'grommet'
 
-2.a I will add a Clock. Just because I can. There. Now, we continue. 
+2.a I will add a &nbsp; ```<Clock/>```. Just because I can. There. Now, we continue. 
 
 2.b Lets get rid of any CSS or position data.
 
@@ -26,9 +26,9 @@ Two rows, three columns.
 
 Add a top level Grommet component
 
-Put every <Trompo> component and the <CurrentMeat> component into a <Box> each.
+Put every &nbsp; ```<Trompo> component and the &nbsp; ```<CurrentMeat> component into a &nbsp; ```<Box>``` each.
 
-Place those 4 boxes within a <Grid>
+Place those 4 boxes within a &nbsp; ```<Grid>```
 
 Let's take a look into Grid properties.
 
