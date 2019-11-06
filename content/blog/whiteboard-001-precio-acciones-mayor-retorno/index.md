@@ -1,5 +1,5 @@
 ---
-title: Whiteboard 001
+title: Whiteboard 001 - 📈💰📉💸
 ---
 
 Se tiene un arreglo de precios diarios para una acción
