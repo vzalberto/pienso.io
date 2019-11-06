@@ -1,5 +1,5 @@
 ---
-title: Solicitud HTTP con Go 
+title: Solicitud POST con datos de formulario en Go 
 ---
 
 ```go
