@@ -31,7 +31,7 @@ func main () {
 		log.Fatalln(err)
 	}
 
-	fmt.Println(string(body))
+	log.Println(string(body))
 
 }
 ```
