@@ -19,8 +19,9 @@ class BlogIndex extends React.Component {
         <SEO title="All posts" />
 
 
-      <Clock type="digital" />
+      <Clock style={{float:"right"}} type="digital" />
       <br /><br />
+
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
