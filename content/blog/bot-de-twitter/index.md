@@ -13,6 +13,7 @@ const schedule = require('node-schedule');
 ````
 Esta línea haría que el bot tuiteara cada 6 horas. Más detalles en https://crontab-generator.org/
 ```javascript
+
 const cronInterval = '* */6 * * *';
 ```
 
