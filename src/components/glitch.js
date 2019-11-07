@@ -5,12 +5,10 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
+import React, {useState} from "react"
 import Image from "gatsby-image"
 
-import { Grommet, Box } from "grommet"
-import { Illustration, Shape } from 'react-zdog'
-
+import {Clock} from 'grommet'
 import { rhythm } from "../utils/typography"
 
 const Glitch = () => {

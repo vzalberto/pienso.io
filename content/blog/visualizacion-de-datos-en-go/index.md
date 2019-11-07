@@ -2,6 +2,8 @@
 title: Visualizando cervezas con Go
 ---
 
+Estamos construyendo un programa en Go para leer información de cervezas y visualizarla.
+
 ```golang
 // https://gobyexample.com/reading-files
 // https://github.com/wcharczuk/go-chart
