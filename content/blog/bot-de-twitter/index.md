@@ -21,7 +21,7 @@ const Twitter = new t({
 
 const redactaTuit = (url) => {
 
-	const tuit = `@fanysitaa 🐹 ${url}`;
+	const tuit = `[@fanysitaa](https://twitter.com/Fanysitaa) 🐹 ${url}`;
 
 	const options = { status: tuit };
 	const cb = () => {};
