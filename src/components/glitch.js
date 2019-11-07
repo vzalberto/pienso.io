@@ -18,10 +18,11 @@ const Glitch = () => {
       style={{
         display: `flex`,
         marginBottom: rhythm(2.5),
+
       }}
     >
       <p>
-        <textarea placeholder="¿en qué piensas tú?"></textarea>
+        <textarea cols="56" rows="5" placeholder="¿en qué piensas tú?"></textarea>
       </p>
     </div>
   )
