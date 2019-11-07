@@ -35,6 +35,6 @@ const buenasTardesFanysitaa = () => {
 	  .then( json => redactaTuit( json.data.url ) )	  
 }
 
-const job = schedule.scheduleJob('20 21 * * *', buenasTardesFanysitaa);
+const job = schedule.scheduleJob(cronInterval, buenasTardesFanysitaa);
 
 ```
