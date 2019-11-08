@@ -22,7 +22,8 @@ const Glitch = () => {
       }}
     >
       <p>
-        <textarea cols="56" rows="5" placeholder="¿en qué piensas tú?"></textarea>
+        <textarea cols="56" rows="5" placeholder="¿en qué piensas tú?" 
+       ></textarea>
       </p>
     </div>
   )
