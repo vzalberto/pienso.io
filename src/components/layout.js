@@ -75,9 +75,12 @@ class Layout extends React.Component {
         <header>{header}</header>
        <main>{children}</main>
         <footer>
+          <Box direction="row">
           © {new Date().getFullYear()}, Hecho con 
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a> por <a href="https://github.com/vzalberto">vzalberto</a>.
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          Contribuyentes: <a href="https://github.com/vzalberto">vzalberto</a>.
+          </Box>
         </footer>
       </div>
       </Grommet>
