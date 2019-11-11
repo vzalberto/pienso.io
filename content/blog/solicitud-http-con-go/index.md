@@ -2,6 +2,7 @@
 title: Solicitud POST con datos de formulario en Go 
 ---
 
+Como el viejo y confiable cURL, pero en Go.
 
 ```go
 package main

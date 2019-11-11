@@ -2,7 +2,7 @@
 title: Cómo hacer un bot de Twitter parte I
 ---
 
-El siguiente [script](https://github.com/vzalberto/bot_de_realidad) obtiene una imagen random de Giphy y la publica en Twitter. Una versión está corriendo en [@Bot\_De\_Realidad](https://twitter.com/bot_de_realidad)
+El siguiente [script](https://github.com/vzalberto/bot_de_realidad) obtiene una imagen random de Giphy y la publica en Twitter, a una hora específica del día.
 
 Primero, se inicializan los paquetes necesarios:
 

@@ -2,7 +2,7 @@
 title: Visualizando cervezas con Go
 ---
 
-Estamos construyendo un programa en Go para leer información de cervezas y visualizarla.
+Estamos construyendo un programa en Go para leer información de cervezas en un archivo csv y visualizarla.
 
 ```golang
 // https://gobyexample.com/reading-files
@@ -63,4 +63,4 @@ func main() {
 
     f.Close()
 }
-'''
+```

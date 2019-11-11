@@ -4,9 +4,8 @@ import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 
 import { Helmet } from 'react-helmet';
-import { TrompoAlPastor } from './TrompoAlPastor'
-
-const TAU = Math.PI * 2
+import { Box, Clock, Grommet } from 'grommet'
+import { Mail } from 'grommet-icons'
 
 class Layout extends React.Component {
   render() {
@@ -57,6 +56,8 @@ class Layout extends React.Component {
       )
     }
     return (
+      <Grommet plain>
+    
       <div
         style={{
           marginLeft: `auto`,
@@ -68,14 +69,18 @@ class Layout extends React.Component {
         <Helmet>
           <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet" />
         </Helmet>
+        <Box direction="row-reverse">
+        <Clock type="digital"/>
+        </Box>
         <header>{header}</header>
        <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Hecho con 
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>.
+          <a href="https://www.gatsbyjs.org">Gatsby</a> por <a href="https://github.com/vzalberto">vzalberto</a>.
         </footer>
       </div>
+      </Grommet>
     )
   }
 }
