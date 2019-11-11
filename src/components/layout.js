@@ -76,10 +76,8 @@ class Layout extends React.Component {
        <main>{children}</main>
         <footer>
           <Box direction="row">
-          © {new Date().getFullYear()}, Hecho con 
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-          Contribuyentes: <a href="https://github.com/vzalberto">vzalberto</a>.
+          © {new Date().getFullYear()}, Hecho con&nbsp;
+          <a href="https://www.gatsbyjs.org">Gatsby</a>&nbsp;por&nbsp;<a href="https://github.com/vzalberto">vzalberto</a>.
           </Box>
         </footer>
       </div>
