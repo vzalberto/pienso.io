@@ -2,7 +2,7 @@
 title: Closure
 ---
 
-<b>tl; dr; </b> Los closures son un espacio de memoria al cual las funciones acceden para poder completar su ejecución. 
+<b>tl; dr; </b> Los closures son funciones que tienen acceso a las variables definidas en el scope que las contiene. 
 
 Se crean al definir una función dentro del cuerpo de otra, utilizando variables de la función contenedora.
 
