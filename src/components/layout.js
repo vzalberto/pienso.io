@@ -84,9 +84,19 @@ class Layout extends React.Component {
         <main>{children}</main>
 
         <footer>
-          <Box direction="row">
-          © {new Date().getFullYear()}, Hecho con el gran 
-          <a href="https://www.gatsbyjs.org">Gatsby</a> por <a href="https://github.com/vzalberto">vzalberto</a>.
+          <Box direction="column">
+          <p>
+          © {new Date().getFullYear()}, Hecho con &nbsp;<a href="https://www.gatsbyjs.org">Gatsby</a> 
+          </p>
+          <p>
+          🐙 <a href="https://github.com/vzalberto">gh/vzalberto</a>
+          </p>
+          <p>
+          ✍︎ <a href="mailto:vzalberto@msn.com">vzalberto@msn.com</a>
+          </p>
+          <p>
+          ♞ <a href="https://lichess.org/ydDr6mtp" >lichess.org/paranoidhominid</a>
+          </p>
           </Box>
         </footer>
       </div>
