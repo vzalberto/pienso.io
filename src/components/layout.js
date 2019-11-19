@@ -86,8 +86,11 @@ class Layout extends React.Component {
         <footer>
           <Box direction="column">
           <p>
-          © {new Date().getFullYear()}, Hecho con &nbsp;<a href="https://www.gatsbyjs.org">Gatsby</a> 
+          © {new Date().getFullYear()}, Hecho con &nbsp;<a href="https://www.gatsbyjs.org">Gatsby</a>. 
           </p>
+          <hr />
+          <h6>Contacto</h6>
+          <br />
           <p>
           🐙 <a href="https://github.com/vzalberto">gh/vzalberto</a>
           </p>
