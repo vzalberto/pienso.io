@@ -69,12 +69,9 @@ class Layout extends React.Component {
         <Helmet>
           <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet" />
 
-          <meta name="twitter:card" content="summary" />
-          <meta name="twitter:site" content="@themoonwithme" />
           <meta name="twitter:title" content={title} />
-          <meta name="twitter:description" content="thicc boi" />
-          <meta name="twitter:creator" content="@paranoidhominid" />
           <meta name="twitter:image" content="https://media3.giphy.com/media/l1J9AGXkysPtuWSVG/giphy.gif" />
+          
 
         </Helmet>
 
@@ -88,8 +85,8 @@ class Layout extends React.Component {
 
         <footer>
           <Box direction="row">
-          © {new Date().getFullYear()}, Hecho con&nbsp; el gran
-          <a href="https://www.gatsbyjs.org">Gatsby</a> por&nbsp;<a href="https://github.com/vzalberto">vzalberto</a>.
+          © {new Date().getFullYear()}, Hecho con el gran 
+          <a href="https://www.gatsbyjs.org">Gatsby</a> por <a href="https://github.com/vzalberto">vzalberto</a>.
           </Box>
         </footer>
       </div>
