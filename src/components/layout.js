@@ -71,6 +71,7 @@ class Layout extends React.Component {
 
           <meta name="twitter:title" content={title} />
           <meta name="twitter:image" content="https://media3.giphy.com/media/l1J9AGXkysPtuWSVG/giphy.gif" />
+          <meta property="og:image" content="https://avatars1.githubusercontent.com/u/4513178?s=460&v=4" />
           
 
         </Helmet>
