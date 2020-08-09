@@ -99,7 +99,7 @@ class Layout extends React.Component {
           ✍︎ <a href="mailto:vzalberto@msn.com">vzalberto@msn.com</a>
           </p>
           <p>
-          ♞ <a href="https://lichess.org/ydDr6mtp" >lichess.org/paranoidhominid</a>
+          ♞ <a href="https://lichess.org/@/paranoidhominid">lichess.org/paranoidhominid</a>
           </p>
           </Box>
         </footer>
