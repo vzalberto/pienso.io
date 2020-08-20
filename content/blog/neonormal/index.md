@@ -19,9 +19,9 @@ Los aviones continúan aterrizando.
 
 Y sigo sin decir algo
 
-que te deje una enseñanza
+que te deje una enseñanza,
 
-, quizás una añoranza,
+quizá una añoranza,
 
 de tiempos en los que añorar cosas
 
