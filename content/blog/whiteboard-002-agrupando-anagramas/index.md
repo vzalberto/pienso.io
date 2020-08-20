@@ -1,5 +1,6 @@
 ---
 title: Whiteboard 002 - Agrupando anagramas
+date: Wed Oct 23 2019 11:43:59 GMT-0500
 ---
 
 Tienes un arreglo de palabras.

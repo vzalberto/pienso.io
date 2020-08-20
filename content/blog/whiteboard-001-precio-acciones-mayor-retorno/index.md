@@ -1,5 +1,6 @@
 ---
 title: Whiteboard 001 - 📈💰📉💸
+date: Wed Oct 23 2019 11:41:59 GMT-0500
 ---
 
 Se tiene un arreglo de precios diarios para una acción

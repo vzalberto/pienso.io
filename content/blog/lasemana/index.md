@@ -1,7 +1,6 @@
 ---
 title: Una semana, un heptágono
-date: Tue Oct 22 2019 15:41:59 GMT-0500
-
+date: Tue Oct 21 2019 15:41:59 GMT-0500
 ---
 
 https://sisifo.firebaseapp.com

@@ -1,6 +1,6 @@
 ---
 title: Neonormal
-date: "2020-08-20"
+date: Thu Aug 20 2020 15:41:59 GMT-0500
 ---
 
 Lo de hoy ya no es lo de ayer.
