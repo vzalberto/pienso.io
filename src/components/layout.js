@@ -5,9 +5,17 @@ import { rhythm, scale } from "../utils/typography"
 
 import { Helmet } from 'react-helmet';
 import { Box, Clock, Grommet } from 'grommet'
-import { Mail } from 'grommet-icons'
 
+import * as Tone from 'tone'
 class Layout extends React.Component {
+  goToSynth =  () => {
+    const synth = new Tone.Synth().toDestination();
+    const now = Tone.now();
+    synth.triggerAttackRelease("C4", "8n", now);
+    synth.triggerAttackRelease("E4", "8n", now + 1);
+    synth.triggerAttackRelease("G4", "8n", now + 2);
+    setTimeout(()=>window.open('https://elegant-pare-b1f318.netlify.app/'), 3000)
+  }
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
@@ -15,6 +23,12 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            marginTop: 10,
+        }}>
         <h1
           style={{
             ...scale(1.5),
@@ -33,6 +47,17 @@ class Layout extends React.Component {
             {title}
           </Link>
         </h1>
+        <span
+          aria-label="synth-link"
+          onClick={this.goToSynth}
+          role="img"
+          style={{
+            cursor: 'pointer',
+          }}
+          >
+            🎹
+          </span>
+        </div>
       )
     } else {
       header = (
@@ -73,7 +98,6 @@ class Layout extends React.Component {
           <meta name="twitter:image" content="https://media3.giphy.com/media/l1J9AGXkysPtuWSVG/giphy.gif" />
           <meta property="og:image" content="https://avatars1.githubusercontent.com/u/4513178?s=460&v=4" />
           
-
         </Helmet>
 
         <Box direction="row-reverse">
