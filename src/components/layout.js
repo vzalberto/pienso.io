@@ -8,13 +8,14 @@ import { Box, Clock, Grommet } from 'grommet'
 
 import * as Tone from 'tone'
 class Layout extends React.Component {
-  goToSynth =  () => {
+  play1_3_5 =  () => {
     const synth = new Tone.Synth().toDestination();
     const now = Tone.now();
     synth.triggerAttackRelease("C4", "8n", now);
     synth.triggerAttackRelease("E4", "8n", now + 1);
     synth.triggerAttackRelease("G4", "8n", now + 2);
-    setTimeout(()=>window.open('https://elegant-pare-b1f318.netlify.app/'), 3000)
+
+
   }
   render() {
     const { location, title, children } = this.props
@@ -47,16 +48,19 @@ class Layout extends React.Component {
             {title}
           </Link>
         </h1>
-        <span
-          aria-label="synth-link"
-          onClick={this.goToSynth}
-          role="img"
-          style={{
-            cursor: 'pointer',
-          }}
-          >
-            🎹
-          </span>
+        <a
+          href={'https://elegant-pare-b1f318.netlify.app/'}
+        >
+          <span
+            aria-label="synth-link"
+            role="img"
+            style={{
+              cursor: 'pointer',
+            }}
+            >
+              🎹
+            </span>
+          </a>
         </div>
       )
     } else {
