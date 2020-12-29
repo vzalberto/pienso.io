@@ -65,6 +65,12 @@ class Layout extends React.Component {
       )
     } else {
       header = (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            marginTop: 10,
+        }}>
         <h3
           style={{
             fontFamily: `'Exo', sans-serif`,
@@ -82,6 +88,21 @@ class Layout extends React.Component {
             {title}
           </Link>
         </h3>
+
+        <a
+          href={'https://elegant-pare-b1f318.netlify.app/'}
+        >
+          <span
+            aria-label="synth-link"
+            role="img"
+            style={{
+              cursor: 'pointer',
+            }}
+            >
+              🎹
+            </span>
+          </a>
+        </div>
       )
     }
     return (
